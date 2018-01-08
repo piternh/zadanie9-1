@@ -1,14 +1,12 @@
-var a;
-var h;
 
 function getTriangleArea (a, h) {
 
   if (a <= 0 || h <= 0) {
-      return getTriangleArea = "Nieprawidłowe dane";
+      return "Nieprawidłowe dane";
   }
 
   if (a > 0 && h > 0) {
-      return getTriangleArea = a*h/2;
+      return a*h/2;
   }
 }
 console.log(getTriangleArea(15, 8));
